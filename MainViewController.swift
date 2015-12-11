@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
     let navigator = NavController()
 
     @IBAction private func leftButtonTapped(sender: UIButton) {
-        navigator.goLeft()
+        navigator.goLeftFrom(self)
     }
 
     @IBAction private func centerButtonTapped(sender: UIButton) {
@@ -22,7 +22,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction private func rightButtonTapped(sender: UIButton) {
-        navigator.goRight()
+        navigator.goRightFrom(self)
     }
     
     

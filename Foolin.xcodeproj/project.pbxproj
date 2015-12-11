@@ -16,6 +16,16 @@
 		388CA8C51C1A8BC900E47909 /* Navigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8BE1C1A8BC900E47909 /* Navigator.framework */; };
 		388CA8C61C1A8BC900E47909 /* Navigator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8BE1C1A8BC900E47909 /* Navigator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		388CA8CD1C1A8C2200E47909 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CA8CC1C1A8C2200E47909 /* NavController.swift */; };
+		388CA8D61C1A8E9A00E47909 /* Left.h in Headers */ = {isa = PBXBuildFile; fileRef = 388CA8D51C1A8E9A00E47909 /* Left.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388CA8DB1C1A8E9A00E47909 /* Left.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8D31C1A8E9A00E47909 /* Left.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		388CA8E11C1A8EF700E47909 /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388CA8E01C1A8EF700E47909 /* Left.storyboard */; };
+		388CA8E31C1A8FD100E47909 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CA8E21C1A8FD100E47909 /* LeftViewController.swift */; };
+		388CA8EC1C1AA0ED00E47909 /* Right.h in Headers */ = {isa = PBXBuildFile; fileRef = 388CA8EB1C1AA0ED00E47909 /* Right.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388CA8F11C1AA0ED00E47909 /* Right.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8E91C1AA0ED00E47909 /* Right.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		388CA8F61C1AA11700E47909 /* Right.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388CA8F51C1AA11700E47909 /* Right.storyboard */; };
+		388CA8F81C1AA18900E47909 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CA8F71C1AA18900E47909 /* RightViewController.swift */; };
+		388CA8FF1C1AAB7500E47909 /* Left.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8D31C1A8E9A00E47909 /* Left.framework */; };
+		388CA9001C1AAB7500E47909 /* Right.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388CA8E91C1AA0ED00E47909 /* Right.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +35,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 388CA8BD1C1A8BC900E47909;
 			remoteInfo = Navigator;
+		};
+		388CA8D81C1A8E9A00E47909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388CA8991C1A87FA00E47909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388CA8D21C1A8E9A00E47909;
+			remoteInfo = Left;
+		};
+		388CA8EE1C1AA0ED00E47909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388CA8991C1A87FA00E47909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388CA8E81C1AA0ED00E47909;
+			remoteInfo = Right;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +60,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				388CA8C61C1A8BC900E47909 /* Navigator.framework in Embed Frameworks */,
+				388CA8DB1C1A8E9A00E47909 /* Left.framework in Embed Frameworks */,
+				388CA8F11C1AA0ED00E47909 /* Right.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +80,16 @@
 		388CA8C01C1A8BC900E47909 /* Navigator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
 		388CA8C21C1A8BC900E47909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388CA8CC1C1A8C2200E47909 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		388CA8D31C1A8E9A00E47909 /* Left.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Left.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388CA8D51C1A8E9A00E47909 /* Left.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Left.h; sourceTree = "<group>"; };
+		388CA8D71C1A8E9A00E47909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388CA8E01C1A8EF700E47909 /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		388CA8E21C1A8FD100E47909 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		388CA8E91C1AA0ED00E47909 /* Right.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Right.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388CA8EB1C1AA0ED00E47909 /* Right.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Right.h; sourceTree = "<group>"; };
+		388CA8ED1C1AA0ED00E47909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388CA8F51C1AA11700E47909 /* Right.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Right.storyboard; sourceTree = "<group>"; };
+		388CA8F71C1AA18900E47909 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +105,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388CA8FF1C1AAB7500E47909 /* Left.framework in Frameworks */,
+				388CA9001C1AAB7500E47909 /* Right.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8CF1C1A8E9A00E47909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8E51C1AA0ED00E47909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +132,8 @@
 			children = (
 				388CA8A31C1A87FA00E47909 /* Foolin */,
 				388CA8BF1C1A8BC900E47909 /* Navigator */,
+				388CA8D41C1A8E9A00E47909 /* Left */,
+				388CA8EA1C1AA0ED00E47909 /* Right */,
 				388CA8A21C1A87FA00E47909 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +143,8 @@
 			children = (
 				388CA8A11C1A87FA00E47909 /* Foolin.app */,
 				388CA8BE1C1A8BC900E47909 /* Navigator.framework */,
+				388CA8D31C1A8E9A00E47909 /* Left.framework */,
+				388CA8E91C1AA0ED00E47909 /* Right.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +188,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		388CA8D41C1A8E9A00E47909 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				388CA8E01C1A8EF700E47909 /* Left.storyboard */,
+				388CA8E21C1A8FD100E47909 /* LeftViewController.swift */,
+				388CA8DF1C1A8EC200E47909 /* SupportingFiles */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		388CA8DF1C1A8EC200E47909 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				388CA8D51C1A8E9A00E47909 /* Left.h */,
+				388CA8D71C1A8E9A00E47909 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		388CA8EA1C1AA0ED00E47909 /* Right */ = {
+			isa = PBXGroup;
+			children = (
+				388CA8EB1C1AA0ED00E47909 /* Right.h */,
+				388CA8ED1C1AA0ED00E47909 /* Info.plist */,
+				388CA8F51C1AA11700E47909 /* Right.storyboard */,
+				388CA8F71C1AA18900E47909 /* RightViewController.swift */,
+			);
+			path = Right;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -139,7 +225,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388CA8EC1C1AA0ED00E47909 /* Right.h in Headers */,
 				388CA8C11C1A8BC900E47909 /* Navigator.h in Headers */,
+				388CA8D61C1A8E9A00E47909 /* Left.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8D01C1A8E9A00E47909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8E61C1AA0ED00E47909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +261,8 @@
 			);
 			dependencies = (
 				388CA8C41C1A8BC900E47909 /* PBXTargetDependency */,
+				388CA8D91C1A8E9A00E47909 /* PBXTargetDependency */,
+				388CA8EF1C1AA0ED00E47909 /* PBXTargetDependency */,
 			);
 			name = Foolin;
 			productName = Foolin;
@@ -183,6 +287,42 @@
 			productReference = 388CA8BE1C1A8BC900E47909 /* Navigator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		388CA8D21C1A8E9A00E47909 /* Left */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388CA8DC1C1A8E9A00E47909 /* Build configuration list for PBXNativeTarget "Left" */;
+			buildPhases = (
+				388CA8CE1C1A8E9A00E47909 /* Sources */,
+				388CA8CF1C1A8E9A00E47909 /* Frameworks */,
+				388CA8D01C1A8E9A00E47909 /* Headers */,
+				388CA8D11C1A8E9A00E47909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Left;
+			productName = Left;
+			productReference = 388CA8D31C1A8E9A00E47909 /* Left.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		388CA8E81C1AA0ED00E47909 /* Right */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388CA8F21C1AA0EE00E47909 /* Build configuration list for PBXNativeTarget "Right" */;
+			buildPhases = (
+				388CA8E41C1AA0ED00E47909 /* Sources */,
+				388CA8E51C1AA0ED00E47909 /* Frameworks */,
+				388CA8E61C1AA0ED00E47909 /* Headers */,
+				388CA8E71C1AA0ED00E47909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Right;
+			productName = Right;
+			productReference = 388CA8E91C1AA0ED00E47909 /* Right.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +337,12 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					388CA8BD1C1A8BC900E47909 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					388CA8D21C1A8E9A00E47909 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					388CA8E81C1AA0ED00E47909 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -216,6 +362,8 @@
 			targets = (
 				388CA8A01C1A87FA00E47909 /* Foolin */,
 				388CA8BD1C1A8BC900E47909 /* Navigator */,
+				388CA8D21C1A8E9A00E47909 /* Left */,
+				388CA8E81C1AA0ED00E47909 /* Right */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +383,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8D11C1A8E9A00E47909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388CA8E11C1A8EF700E47909 /* Left.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8E71C1AA0ED00E47909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388CA8F61C1AA11700E47909 /* Right.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +422,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		388CA8CE1C1A8E9A00E47909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388CA8E31C1A8FD100E47909 /* LeftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388CA8E41C1AA0ED00E47909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388CA8F81C1AA18900E47909 /* RightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +445,16 @@
 			isa = PBXTargetDependency;
 			target = 388CA8BD1C1A8BC900E47909 /* Navigator */;
 			targetProxy = 388CA8C31C1A8BC900E47909 /* PBXContainerItemProxy */;
+		};
+		388CA8D91C1A8E9A00E47909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388CA8D21C1A8E9A00E47909 /* Left */;
+			targetProxy = 388CA8D81C1A8E9A00E47909 /* PBXContainerItemProxy */;
+		};
+		388CA8EF1C1AA0ED00E47909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388CA8E81C1AA0ED00E47909 /* Right */;
+			targetProxy = 388CA8EE1C1AA0ED00E47909 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,6 +626,88 @@
 			};
 			name = Release;
 		};
+		388CA8DD1C1A8E9A00E47909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Left/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stewartstuff.com.Left;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		388CA8DE1C1A8E9A00E47909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Left/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stewartstuff.com.Left;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		388CA8F31C1AA0EE00E47909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Right/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stewartstuff.com.Right;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		388CA8F41C1AA0EE00E47909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Right/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stewartstuff.com.Right;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +733,22 @@
 			buildConfigurations = (
 				388CA8C81C1A8BC900E47909 /* Debug */,
 				388CA8C91C1A8BC900E47909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388CA8DC1C1A8E9A00E47909 /* Build configuration list for PBXNativeTarget "Left" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388CA8DD1C1A8E9A00E47909 /* Debug */,
+				388CA8DE1C1A8E9A00E47909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388CA8F21C1AA0EE00E47909 /* Build configuration list for PBXNativeTarget "Right" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388CA8F31C1AA0EE00E47909 /* Debug */,
+				388CA8F41C1AA0EE00E47909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
